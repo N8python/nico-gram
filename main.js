@@ -5,7 +5,7 @@ var height = canvas.height;
 ctx.fillStyle = "Black";
 ctx.font = "40px Courier";
 ctx.textAlign = "center";
-ctx.fillText("Happy Birthday, Leon! - The Lahey Bunch", width / 2, height / 2 - 100);
+ctx.fillText("Happy Birthday, Nico! - The Lahey Bunch", width / 2, height / 2 - 100);
 ctx.font = "20px Courier";
 ctx.fillText("Click the Start Button to start up your gram", width / 2, height / 2);
 var firstFrame = 0;
@@ -83,13 +83,13 @@ function animation() {
     ctx.textAlign = "left";
     ctx.font = "100px Courier";
     ctx.fillStyle = "Red";
-    ctx.fillText("Leon", 20 + firstFrame, 100);
+    ctx.fillText("Nico", 20 + firstFrame, 100);
     ctx.fillStyle = "Orange";
-    ctx.fillText("Leon", 1200 - firstFrame, 200);
+    ctx.fillText("Nico", 1200 - firstFrame, 200);
     ctx.fillStyle = "Green";
-    ctx.fillText("Leon", 20 + firstFrame, 300);
+    ctx.fillText("Nico", 20 + firstFrame, 300);
     ctx.fillStyle = "Blue";
-    ctx.fillText("Leon", 1200 - firstFrame, 400);
+    ctx.fillText("Nico", 1200 - firstFrame, 400);
   } else if (firstFrame < 1501) {
     ctx.textAlign = "center";
     ctx.font = firstFrame - 1400 + "px Courier";
